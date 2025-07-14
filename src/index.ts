@@ -23,9 +23,9 @@ export default {
 		}
 
 		// 验证密钥
-		#if (key !== env.key) {
-		#	return new Response('Forbidden', { status: 403 });
-		#}
+		//if (key !== env.key) {
+		//	return new Response('Forbidden', { status: 403 });
+		//}
 
 		if (!fileUrl) {
 			return new Response('Missing fileUrl parameter', { status: 400 });
